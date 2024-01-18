@@ -31,7 +31,9 @@ header {
   box-shadow: 0px 5px 9px 0px;
   margin-bottom: 1rem;
 }
-
+header div h1 {
+  color: white;
+}
 header div img {
   margin-bottom: 15px;
 }
@@ -58,7 +60,7 @@ main {
 }
 
 section {
-  background-color: aliceblue;
+  background-color: #a9a4a48c;
   padding: 1rem;
   margin-bottom: 2rem;
 }
@@ -95,6 +97,14 @@ ol {
   margin-left: 1.5em;
 }
 
+.puntata {
+  list-style: disc;
+}
+
+.numerica {
+  list-style: decimal;
+}
+
 strong {
   color: #ba53bb;
   font-weight: bold;
@@ -118,7 +128,34 @@ iframe {
   border-radius: 18px;
 }
 /* TABELLE */
+table {
+  margin-bottom: 2rem;
+}
 
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+
+thead tr {
+  background-color: #1065a9;
+  color: #ced6dd;
+}
+
+th,
+td {
+  padding: 12px 14px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+tbody tr {
+  border-bottom: 1px solid white;
+}
+
+.tab {
+  border-bottom: 2px solid #1065a9;
+}
 /* FORM */
 input {
   padding: 5px;
@@ -146,5 +183,39 @@ button {
 }
 
 /* ELEMENTI NELL' ASIDE */
+aside h2 {
+  text-align: center;
+  color: rgb(27, 27, 27);
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+aside div {
+  background-color: #a9a4a48c;
+  border: 1px solid gray;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Data {
+  margin-bottom: 0;
+  font-size: 1em;
+  text-align: right;
+}
 
 /* FOOTER */
+footer {
+  background-color: rgb(21 88 113);
+
+  box-shadow: 0 2px 2px 0;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+footer a {
+  color: fuchsia;
+}
